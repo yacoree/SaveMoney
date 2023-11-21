@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9adefa3fea964d71a914ae8a5d6dc56a" Name="Diagram1">
+        <EntityTypeShape EntityType="SaveMoneyModel.BankAccounts" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.Categories" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.Logins" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.Transactions" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.TransactionTypes" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.Users" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.BankAccountsAmounts" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.CategoriesTransactions" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SaveMoneyModel.UsersAmounts" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="SaveMoneyModel.FK_BankAccounts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SaveMoneyModel.FK_Transactions_BankAccounts" ManuallyRouted="false" />
+        <AssociationConnector Association="SaveMoneyModel.FK_Categories_TransactionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="SaveMoneyModel.FK_Transactions_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="SaveMoneyModel.FK_Logins_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
